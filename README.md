@@ -16,7 +16,12 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
 **Update your package list**:
   ```bash
   sudo apt-get update
-  sudo apt-get upgrade 
+  sudo apt-get upgrade
+
+**Apache2**:
+ ```bash
+ sudo apt-get install apache2
+
  
     
     
