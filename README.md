@@ -30,4 +30,9 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
   ```bash
  sudo apt-get install php
   ```
-
+     -  Configure the ownership and permission for Apache Web Server: 
+     
+  ```bash
+    sudo chown <your_username> /var/www/html
+    sudo chmod 755 /var/www/html
+  ```
