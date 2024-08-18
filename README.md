@@ -36,3 +36,21 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
     sudo chown <your_username> /var/www/html
     sudo chmod 755 /var/www/html
   ```
+- Move the project files to the Apache web server's root directory: 
+     
+  ```bash
+    sudo mv network_scanner /var/www/html/
+  ```
+- Open the cron table editor: 
+     
+  ```bash
+    sudo crontab -e
+  ```
+- Add the following line to the file to run the Nmap scan every 10 minutes: 
+     
+  ```bash
+    */10 * * * * nmap <your-ip-address> -oN /var/www/html/nmap.html
+  ```
+- Access the web interface by navigating to http://your_server/Network.php/ in your web browser
+     
+  
