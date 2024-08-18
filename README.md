@@ -13,7 +13,7 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
 
     Make sure you have the following dependencies installed:
         sudo apt-get update
-        sudo apt-get upgarde
+        sudo apt-get upgrade
 
 
 
