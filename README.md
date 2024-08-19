@@ -34,7 +34,7 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
      
   ```bash
     sudo chown <your_username> /var/www/html
-    sudo chmod 755 /var/www/html
+    sudo chmod 777 /var/www/html
   ```
 - Move the project files to the Apache web server's root directory: 
      
