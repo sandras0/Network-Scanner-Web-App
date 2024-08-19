@@ -41,7 +41,7 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
   ```bash
     sudo mv network_scanner /var/www/html/
   ```
-- Open the cron table editor: 
+- Open the crontab editor: 
      
   ```bash
     sudo crontab -e
