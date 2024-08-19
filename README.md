@@ -51,6 +51,6 @@ The Network-Scanner-Web-App Project is a web-based tool designed to perform netw
   ```bash
     */10 * * * * nmap <your-ip-address> -oN /var/www/html/nmap.html
   ```
-- Access the web interface by navigating to http://your_server/Network.php/ in your web browser
+- Access the web interface by navigating to http://your_server/network.php/ in your web browser
      
   
